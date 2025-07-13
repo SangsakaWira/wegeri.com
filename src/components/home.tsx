@@ -19,7 +19,7 @@ const Home = () => {
           className="absolute inset-0 bg-cover bg-center"
           style={{
             backgroundImage:
-              "url(https://images.unsplash.com/photo-1511537190424-bbbab87ac5eb?w=1200&q=80)",
+              "url(./briket.jpg)",
             filter: "brightness(0.7)",
           }}
         />

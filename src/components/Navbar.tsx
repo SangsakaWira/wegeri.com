@@ -22,15 +22,16 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-[#3c2f2f] shadow-lg sticky top-0 z-50">
+    <nav className="bg-[#FFFFFF] shadow-lg sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-16">
+        <div className="flex justify-between items-center h-24">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
-            <Coffee className="h-8 w-8 text-[#6f4e37]" />
-            <span className="text-xl font-bold text-white">
-              Coffee Bean Exports
-            </span>
+            {/* <Coffee className="h-8 w-8 text-[#6f4e37]" /> */}
+            <img src="./logo.jpeg" className="w-[80px]"></img>
+            {/* <span className="text-xl font-bold text-white">
+              Wigeri
+            </span> */}
           </Link>
 
           {/* Desktop Navigation */}
@@ -41,8 +42,8 @@ const Navbar = () => {
                 to={item.path}
                 className={`px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 ${
                   isActive(item.path)
-                    ? "text-[#6f4e37] bg-white/10"
-                    : "text-white/80 hover:text-white hover:bg-white/5"
+                    ? "text-[#000000] bg-white/10"
+                    : "text[#000000] hover:text-white hover:bg-white/5"
                 }`}
               >
                 {item.name}
