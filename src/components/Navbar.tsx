@@ -100,7 +100,7 @@ const Navbar = () => {
               <div className="px-3 py-2">
                 <Button
                   size="sm"
-                  className="bg-[#6f4e37] hover:bg-[#5a3e2a] text-white w-full"
+                  className="bg-[#93ba88] hover:bg-[#93ba88] text-white w-full"
                 >
                   Get Quote
                 </Button>
