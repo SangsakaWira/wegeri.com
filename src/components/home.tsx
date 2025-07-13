@@ -4,6 +4,7 @@ import { ArrowRight, Coffee, Globe, Leaf, MessageSquare } from "lucide-react";
 import { Button } from "./ui/button";
 import { Card, CardContent } from "./ui/card";
 import { Separator } from "./ui/separator";
+import Navbar from "./Navbar";
 import ProductCatalog from "./ProductCatalog";
 import TestimonialCarousel from "./TestimonialCarousel";
 import ContactForm from "./ContactForm";
@@ -11,6 +12,7 @@ import ContactForm from "./ContactForm";
 const Home = () => {
   return (
     <div className="min-h-screen bg-[#f8f5f2]">
+      <Navbar />
       {/* Hero Section */}
       <section className="relative h-[80vh] overflow-hidden">
         <div
@@ -24,7 +26,7 @@ const Home = () => {
         <div className="absolute inset-0 bg-black/40" />
         <div className="relative z-10 flex flex-col items-center justify-center h-full text-center px-4 md:px-8 lg:px-16">
           <motion.h1
-            className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6"
+            className="text-4xl md:text-5xl lg:text-6xl font-bold font-mono text-white mb-6"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
