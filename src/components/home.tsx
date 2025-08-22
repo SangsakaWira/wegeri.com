@@ -46,12 +46,14 @@ const Home = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.6 }}
           >
-            <Button
-              size="lg"
-              className="bg-[#6f4e37] hover:bg-[#5a3e2a] text-white"
-            >
-              Explore Our Products <ArrowRight className="ml-2 h-4 w-4" />
-            </Button>
+            <a href="https://api.whatsapp.com/send/?phone=6281385622350&text&type=phone_number&app_absent=0">
+              <Button
+                size="lg"
+                className="bg-[#6f4e37] hover:bg-[#5a3e2a] text-white"
+              >
+                Explore Our Products <ArrowRight className="ml-2 h-4 w-4" />
+              </Button>
+            </a>
           </motion.div>
         </div>
       </section>
@@ -326,7 +328,7 @@ const Home = () => {
                     />
                   </svg>
                 </a>
-                <a href="#" className="hover:text-white transition-colors">
+                <a href="https://api.whatsapp.com/send/?phone=6281385622350&text&type=phone_number&app_absent=0" className="hover:text-white transition-colors">
                   <span className="sr-only">Instagram</span>
                   <svg
                     className="h-6 w-6"
