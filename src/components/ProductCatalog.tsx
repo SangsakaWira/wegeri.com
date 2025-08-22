@@ -124,7 +124,7 @@ const ProductCatalog = ({ beans = defaultBeans }: { beans?: CoffeeBean[] }) => {
               </CardContent>
               <CardFooter className="flex justify-between border-t border-amber-100 pt-4">
                 <div className="text-amber-900 font-medium">
-                  From ${bean.price.kg5}/5kg
+                  For Price Contact Us
                 </div>
                 <Dialog>
                   <DialogTrigger asChild>
@@ -133,10 +133,10 @@ const ProductCatalog = ({ beans = defaultBeans }: { beans?: CoffeeBean[] }) => {
                       className="border-amber-800 text-amber-800 hover:bg-amber-800 hover:text-amber-50"
                       onClick={() => setSelectedBean(bean)}
                     >
-                      View Details
+                     <a href="https://api.whatsapp.com/send/?phone=6281385622350&text&type=phone_number&app_absent=0" ></a>
                     </Button>
                   </DialogTrigger>
-                  <DialogContent className="bg-amber-50 border-amber-200 max-w-3xl">
+                  {/* <DialogContent className="bg-amber-50 border-amber-200 max-w-3xl">
                     {selectedBean && (
                       <>
                         <DialogHeader>
@@ -210,7 +210,7 @@ const ProductCatalog = ({ beans = defaultBeans }: { beans?: CoffeeBean[] }) => {
                         </DialogFooter>
                       </>
                     )}
-                  </DialogContent>
+                  </DialogContent> */}
                 </Dialog>
               </CardFooter>
             </Card>
