@@ -151,7 +151,7 @@ const Home = () => {
       </section>
 
       {/* Testimonials Section */}
-      <section className="py-20 px-4 md:px-8 lg:px-16 bg-[#3c2f2f] text-white">
+      {/* <section className="py-20 px-4 md:px-8 lg:px-16 bg-[#3c2f2f] text-white">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
@@ -165,7 +165,7 @@ const Home = () => {
 
           <TestimonialCarousel />
         </div>
-      </section>
+      </section> */}
 
       {/* Contact Section */}
       <section className="py-20 px-4 md:px-8 lg:px-16 bg-white">

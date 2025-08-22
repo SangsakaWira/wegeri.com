@@ -226,7 +226,7 @@ const defaultBeans: CoffeeBean[] = [
   {
     id: "1",
     name: "Black Pepper",
-    origin: "Indonesia",
+    origin: "Java Indonesia",
     altitude: "1,800-2,200m",
     process: "Washed",
     flavorProfile: ["Floral", "Citrus", "Bergamot"],
@@ -244,7 +244,7 @@ const defaultBeans: CoffeeBean[] = [
   {
     id: "2",
     name: "Long Pepper",
-    origin: "Indonesia",
+    origin: "Java Indonesia",
     altitude: "1,400-1,800m",
     process: "Washed",
     flavorProfile: ["Chocolate", "Caramel", "Nutty"],
@@ -262,7 +262,7 @@ const defaultBeans: CoffeeBean[] = [
   {
     id: "3",
     name: "Cloves",
-    origin: "Indonesia",
+    origin: "Sulawesi Indonesia",
     altitude: "900-1,500m",
     process: "Wet-hulled",
     flavorProfile: ["Earthy", "Herbal", "Dark Chocolate"],
@@ -280,7 +280,7 @@ const defaultBeans: CoffeeBean[] = [
   {
     id: "4",
     name: "White Pepper",
-    origin: "Central & South America",
+    origin: "Java Indonesia",
     altitude: "Various",
     process: "Various",
     flavorProfile: ["Balanced", "Sweet", "Smooth"],
@@ -297,8 +297,8 @@ const defaultBeans: CoffeeBean[] = [
   },
   {
     id: "5",
-    name: "Costa Rican Tarrazu",
-    origin: "Costa Rica",
+    name: "Palm Sugar",
+    origin: "Sumatera Indonesia",
     altitude: "1,500-1,900m",
     process: "Washed",
     flavorProfile: ["Bright", "Apple", "Honey"],
@@ -315,8 +315,8 @@ const defaultBeans: CoffeeBean[] = [
   },
   {
     id: "6",
-    name: "Espresso Blend",
-    origin: "Africa & South America",
+    name: "Coffee",
+    origin: "Java & Sumatera Indonesia",
     altitude: "Various",
     process: "Various",
     flavorProfile: ["Chocolate", "Caramel", "Rich"],
