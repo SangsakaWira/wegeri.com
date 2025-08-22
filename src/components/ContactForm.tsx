@@ -64,11 +64,11 @@ const orderVolumes = [
 ];
 
 const coffeeOptions = [
-  { id: "arabica", label: "Arabica" },
-  { id: "robusta", label: "Robusta" },
-  { id: "specialty", label: "Specialty Grade" },
-  { id: "organic", label: "Organic Certified" },
-  { id: "fairtrade", label: "Fair Trade Certified" },
+  { id: "Pepper", label: "Pepper" },
+  { id: "White-Pepper", label: "White-Pepper" },
+  { id: "Cloves", label: "Cloves" },
+  { id: "Palm-Sugar", label: "Palm-Sugar" },
+  { id: "Others", label: "Others" },
 ];
 
 const ContactForm = () => {
@@ -233,7 +233,7 @@ const ContactForm = () => {
                 render={() => (
                   <FormItem>
                     <div className="mb-4">
-                      <FormLabel>Preferred Coffee Types</FormLabel>
+                      <FormLabel>Preferred Products Types</FormLabel>
                       <FormDescription>Select all that apply</FormDescription>
                     </div>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
