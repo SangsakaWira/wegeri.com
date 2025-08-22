@@ -133,7 +133,7 @@ const ProductCatalog = ({ beans = defaultBeans }: { beans?: CoffeeBean[] }) => {
                       className="border-amber-800 text-amber-800 hover:bg-amber-800 hover:text-amber-50"
                       onClick={() => setSelectedBean(bean)}
                     >
-                     <a href="https://api.whatsapp.com/send/?phone=6281385622350&text&type=phone_number&app_absent=0" ></a>
+                     <a href="https://api.whatsapp.com/send/?phone=6281385622350&text&type=phone_number&app_absent=0" >View Details</a>
                     </Button>
                   </DialogTrigger>
                   {/* <DialogContent className="bg-amber-50 border-amber-200 max-w-3xl">
