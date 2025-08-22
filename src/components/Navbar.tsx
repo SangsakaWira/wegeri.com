@@ -13,7 +13,7 @@ const Navbar = () => {
     { name: "About Us", path: "/about" },
     { name: "Gallery", path: "https://www.instagram.com/hello.wigeri" },
     // { name: "Portfolio", path: "/portfolio" },
-    { name: "Contact", path: "/#contact" },
+    { name: "Contact", path: "https://api.whatsapp.com/send/?phone=6281385622350&text&type=phone_number&app_absent=0" },
   ];
 
   const isActive = (path: string) => {
@@ -102,7 +102,7 @@ const Navbar = () => {
                   size="sm"
                   className="bg-[#93ba88] hover:bg-[#93ba88] text-white w-full"
                 >
-                  Get Quote
+                  <a href="https://api.whatsapp.com/send/?phone=6281385622350&text&type=phone_number&app_absent=0">Get Quote</a>
                 </Button>
               </div>
             </div>
