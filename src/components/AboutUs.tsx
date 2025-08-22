@@ -226,29 +226,29 @@ const AboutUs = () => {
             finest beans.
           </p>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {[
               {
                 name: "Kokoh Satria",
                 role: "Founder",
-                image: "https://api.dicebear.com/7.x/avataaars/svg?seed=Maria",
+                image: "/public/founder.png",
               },
               {
                 name: "Jonathan Gabriel",
                 role: "Co-Founder",
-                image: "https://api.dicebear.com/7.x/avataaars/svg?seed=James",
+                image: "/public/cofounder.png",
               },
-              {
-                name: "Reza Kurnia",
-                role: "Advisor",
-                image: "https://api.dicebear.com/7.x/avataaars/svg?seed=Ana",
-              },
+              // {
+              //   name: "Reza Kurnia",
+              //   role: "Advisor",
+              //   image: "https://api.dicebear.com/7.x/avataaars/svg?seed=Ana",
+              // },
             ].map((member) => (
               <div key={member.name} className="text-center">
                 <img
                   src={member.image}
                   alt={member.name}
-                  className="w-32 h-32 rounded-full mx-auto mb-4 border-4 border-[#6f4e37]"
+                  className="w-64 h-72 rounded-full mx-auto mb-4 border-4 border-[#6f4e37]"
                 />
                 <h3 className="text-xl font-semibold mb-2">{member.name}</h3>
                 <p className="text-white/80">{member.role}</p>

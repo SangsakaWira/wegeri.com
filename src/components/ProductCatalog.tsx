@@ -56,7 +56,7 @@ const ProductCatalog = ({ beans = defaultBeans }: { beans?: CoffeeBean[] }) => {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-amber-900 mb-4">
-            Our Premium Coffee Beans
+            Our Products
           </h2>
           <p className="text-amber-700 max-w-2xl mx-auto">
             Discover our carefully selected coffee beans sourced from the finest
@@ -64,7 +64,7 @@ const ProductCatalog = ({ beans = defaultBeans }: { beans?: CoffeeBean[] }) => {
           </p>
         </div>
 
-        <Tabs defaultValue="all" className="mb-8">
+        {/* <Tabs defaultValue="all" className="mb-8">
           <TabsList className="bg-amber-100 border border-amber-200">
             {categories.map((category) => (
               <TabsTrigger
@@ -77,7 +77,7 @@ const ProductCatalog = ({ beans = defaultBeans }: { beans?: CoffeeBean[] }) => {
               </TabsTrigger>
             ))}
           </TabsList>
-        </Tabs>
+        </Tabs> */}
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {filteredBeans.map((bean) => (
@@ -104,12 +104,12 @@ const ProductCatalog = ({ beans = defaultBeans }: { beans?: CoffeeBean[] }) => {
                     {bean.origin}
                   </Badge>
                 </div>
-                <CardDescription className="text-amber-700">
+                {/* <CardDescription className="text-amber-700">
                   {bean.altitude} • {bean.process}
-                </CardDescription>
+                </CardDescription> */}
               </CardHeader>
               <CardContent>
-                <div className="flex flex-wrap gap-2 mb-4">
+                {/* <div className="flex flex-wrap gap-2 mb-4">
                   {bean.flavorProfile.map((flavor) => (
                     <Badge
                       key={flavor}
@@ -119,7 +119,7 @@ const ProductCatalog = ({ beans = defaultBeans }: { beans?: CoffeeBean[] }) => {
                       {flavor}
                     </Badge>
                   ))}
-                </div>
+                </div> */}
                 <p className="text-gray-600 line-clamp-2">{bean.description}</p>
               </CardContent>
               <CardFooter className="flex justify-between border-t border-amber-100 pt-4">
@@ -225,61 +225,61 @@ const ProductCatalog = ({ beans = defaultBeans }: { beans?: CoffeeBean[] }) => {
 const defaultBeans: CoffeeBean[] = [
   {
     id: "1",
-    name: "Ethiopian Yirgacheffe",
-    origin: "Ethiopia",
+    name: "Black Pepper",
+    origin: "Indonesia",
     altitude: "1,800-2,200m",
     process: "Washed",
     flavorProfile: ["Floral", "Citrus", "Bergamot"],
     description:
       "A bright and complex coffee with distinctive floral notes, citrus acidity, and a clean finish. Grown in the highlands of Yirgacheffe, Ethiopia.",
     price: {
-      kg5: 85,
-      kg10: 160,
-      kg25: 375,
+      kg5: 9,
+      kg10: 15,
+      kg25: 25,
     },
     image:
-      "https://images.unsplash.com/photo-1611854779393-1b2da9d400fe?w=800&q=80",
+      "/public/black-pepper.png",
     category: "single origin",
   },
   {
     id: "2",
-    name: "Colombian Supremo",
-    origin: "Colombia",
+    name: "Long Pepper",
+    origin: "Indonesia",
     altitude: "1,400-1,800m",
     process: "Washed",
     flavorProfile: ["Chocolate", "Caramel", "Nutty"],
     description:
-      "A well-balanced coffee with medium body, pleasant acidity, and notes of chocolate and caramel. Grown in the Huila region of Colombia.",
+      "A well-balanced pepper with medium body, pleasant acidity, and notes of chocolate and caramel. Grown in the Huila region of Colombia.",
     price: {
-      kg5: 75,
-      kg10: 140,
-      kg25: 325,
+      kg5: 9,
+      kg10: 15,
+      kg25: 25,
     },
     image:
-      "https://images.unsplash.com/photo-1559525839-b184a4d698c7?w=800&q=80",
+      "/public/long-pepper.png",
     category: "single origin",
   },
   {
     id: "3",
-    name: "Sumatra Mandheling",
+    name: "Cloves",
     origin: "Indonesia",
     altitude: "900-1,500m",
     process: "Wet-hulled",
     flavorProfile: ["Earthy", "Herbal", "Dark Chocolate"],
     description:
-      "A full-bodied coffee with low acidity, earthy notes, and a smooth finish. Grown in the highlands of Sumatra, Indonesia.",
+      "A full-bodied cloves with low acidity, earthy notes, and a smooth finish. Grown in the highlands of Sumatra, Indonesia.",
     price: {
-      kg5: 80,
-      kg10: 150,
-      kg25: 350,
+      kg5: 9,
+      kg10: 15,
+      kg25: 25,
     },
     image:
-      "https://images.unsplash.com/photo-1565600444102-063f8a7a1e37?w=800&q=80",
+      "/public/cengkeh-2.png",
     category: "single origin",
   },
   {
     id: "4",
-    name: "Morning Blend",
+    name: "White Pepper",
     origin: "Central & South America",
     altitude: "Various",
     process: "Various",
@@ -287,12 +287,12 @@ const defaultBeans: CoffeeBean[] = [
     description:
       "A balanced and approachable blend with medium body, pleasant sweetness, and a clean finish. Perfect for everyday drinking.",
     price: {
-      kg5: 70,
-      kg10: 130,
-      kg25: 300,
+      kg5: 9,
+      kg10: 15,
+      kg25: 25,
     },
     image:
-      "https://images.unsplash.com/photo-1497636577773-f1231844b336?w=800&q=80",
+      "/public/lada-1.png",
     category: "blend",
   },
   {
@@ -305,9 +305,9 @@ const defaultBeans: CoffeeBean[] = [
     description:
       "A clean and bright coffee with notes of apple, honey, and a hint of cinnamon. Grown in the Tarrazu region of Costa Rica.",
     price: {
-      kg5: 78,
-      kg10: 145,
-      kg25: 340,
+     kg5: 9,
+      kg10: 15,
+      kg25: 25,
     },
     image:
       "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=800&q=80",
@@ -323,9 +323,9 @@ const defaultBeans: CoffeeBean[] = [
     description:
       "A rich and full-bodied blend designed specifically for espresso. Features notes of dark chocolate and caramel with a lingering sweet finish.",
     price: {
-      kg5: 82,
-      kg10: 155,
-      kg25: 360,
+     kg5: 9,
+      kg10: 15,
+      kg25: 25,
     },
     image:
       "https://images.unsplash.com/photo-1511537190424-bbbab87ac5eb?w=800&q=80",
