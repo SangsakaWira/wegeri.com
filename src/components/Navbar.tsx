@@ -40,11 +40,10 @@ const Navbar = () => {
               <Link
                 key={item.name}
                 to={item.path}
-                className={`px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 ${
-                  isActive(item.path)
+                className={`px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 ${isActive(item.path)
                     ? "text-[#000000] bg-white/10"
                     : "text[#000000] hover:text-black hover:bg-white/5"
-                }`}
+                  }`}
               >
                 {item.name}
               </Link>
@@ -88,22 +87,23 @@ const Navbar = () => {
                   key={item.name}
                   to={item.path}
                   onClick={() => setIsOpen(false)}
-                  className={`block px-3 py-2 rounded-md text-base font-medium transition-colors duration-200 ${
-                    isActive(item.path)
+                  className={`block px-3 py-2 rounded-md text-base font-medium transition-colors duration-200 ${isActive(item.path)
                       ? "text-[#6f4e37] bg-white/10"
                       : "text-white/80 hover:text-white hover:bg-white/5"
-                  }`}
+                    }`}
                 >
                   {item.name}
                 </Link>
               ))}
               <div className="px-3 py-2">
-                <Button
-                  size="sm"
-                  className="bg-[#93ba88] hover:bg-[#93ba88] text-white w-full"
-                >
-                  <a href="https://api.whatsapp.com/send/?phone=6281385622350&text&type=phone_number&app_absent=0">Get Quote</a>
-                </Button>
+                <a href="https://api.whatsapp.com/send/?phone=6281385622350&text&type=phone_number&app_absent=0">
+                  <Button
+                    size="sm"
+                    className="bg-[#93ba88] hover:bg-[#93ba88] text-white w-full"
+                  >
+                    Get Quote
+                  </Button>
+                </a>
               </div>
             </div>
           </motion.div>
