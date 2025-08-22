@@ -42,7 +42,7 @@ const AboutUs = () => {
       icon: Heart,
       title: "Passion Driven",
       description:
-        "Commodities is more than our business—it's our passion. We're dedicated to sharing the world's finest beans with commodities lovers everywhere.",
+        "Commodities is more than our business—it's our passion. We're dedicated to sharing the world's finest products with commodities lovers everywhere.",
     },
   ];
 
@@ -221,7 +221,7 @@ const AboutUs = () => {
           <p className="text-lg text-white/80 max-w-3xl mx-auto mb-12">
             Our passionate team of commodities experts, sourcing specialists, and
             logistics professionals work tirelessly to bring you the world's
-            finest beans.
+            finest products.
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
