@@ -238,7 +238,7 @@ const defaultBeans: CoffeeBean[] = [
       kg25: 25,
     },
     image:
-      "public/black-pepper.png",
+      "/black-pepper.png",
     category: "single origin",
   },
   {
@@ -256,7 +256,7 @@ const defaultBeans: CoffeeBean[] = [
       kg25: 25,
     },
     image:
-      "public/long-pepper.png",
+      "/long-pepper.png",
     category: "single origin",
   },
   {
@@ -274,7 +274,7 @@ const defaultBeans: CoffeeBean[] = [
       kg25: 25,
     },
     image:
-      "public/cengkeh-2.png",
+      "/cengkeh-2.png",
     category: "single origin",
   },
   {
@@ -292,7 +292,7 @@ const defaultBeans: CoffeeBean[] = [
       kg25: 25,
     },
     image:
-      "public/lada-1.png",
+      "/lada-1.png",
     category: "blend",
   },
   {
