@@ -231,12 +231,12 @@ const AboutUs = () => {
               {
                 name: "Kokoh Satria",
                 role: "Founder",
-                image: "/public/founder.png",
+                image: "/founder.png",
               },
               {
                 name: "Jonathan Gabriel",
                 role: "Co-Founder",
-                image: "/public/cofounder.png",
+                image: "/cofounder.png",
               },
               // {
               //   name: "Reza Kurnia",
