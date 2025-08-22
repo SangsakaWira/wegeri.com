@@ -155,9 +155,7 @@ const Gallery = () => {
             animate={{ opacity: 1 }}
             transition={{ duration: 0.8, delay: 0.3 }}
           >
-            Take a visual journey through our coffee sourcing process, from farm
-            to cup. Discover the beauty and craftsmanship behind every bean we
-            export.
+            Take a visual journey through our sourcing process, from farmers to global markets. Discover the beauty, quality, and dedication behind every product we share with the world.
           </motion.p>
         </div>
       </section>
