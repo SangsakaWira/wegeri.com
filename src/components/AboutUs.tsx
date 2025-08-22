@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { commodities, Globe, Leaf, Users, Award, Heart } from "lucide-react";
+import { Coffee, Globe, Leaf, Users, Award, Heart } from "lucide-react";
 import { Card, CardContent } from "./ui/card";
 import { Separator } from "./ui/separator";
 import { Button } from "./ui/button";
@@ -9,7 +9,7 @@ import Navbar from "./Navbar";
 const AboutUs = () => {
   const values = [
     {
-      icon: commodities,
+      icon: Coffee,
       title: "Quality Excellence",
       description:
         "Quality Excellence We ensure only the finest products through strict sourcing, rigorous quality control, and continuous improvement.",
