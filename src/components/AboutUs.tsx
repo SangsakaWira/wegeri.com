@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { Coffee, Globe, Leaf, Users, Award, Heart } from "lucide-react";
+import { commodities, Globe, Leaf, Users, Award, Heart } from "lucide-react";
 import { Card, CardContent } from "./ui/card";
 import { Separator } from "./ui/separator";
 import { Button } from "./ui/button";
@@ -9,10 +9,10 @@ import Navbar from "./Navbar";
 const AboutUs = () => {
   const values = [
     {
-      icon: Coffee,
+      icon: commodities,
       title: "Quality Excellence",
       description:
-        "We source only the finest coffee beans, ensuring exceptional quality through rigorous selection and testing processes.",
+        "Quality Excellence We ensure only the finest products through strict sourcing, rigorous quality control, and continuous improvement.",
     },
     {
       icon: Leaf,
@@ -24,7 +24,7 @@ const AboutUs = () => {
       icon: Globe,
       title: "Global Reach",
       description:
-        "With partners across six continents, we connect exceptional coffee growers with discerning roasters worldwide.",
+        "With partners across six continents, we connect exceptional commodities growers with discerning roasters worldwide.",
     },
     {
       icon: Users,
@@ -36,13 +36,13 @@ const AboutUs = () => {
       icon: Award,
       title: "Industry Recognition",
       description:
-        "Our dedication to excellence has earned us numerous awards and certifications from international coffee organizations.",
+        "Our dedication to excellence has earned us numerous awards and certifications from international commodities organizations.",
     },
     {
       icon: Heart,
       title: "Passion Driven",
       description:
-        "Coffee is more than our business—it's our passion. We're dedicated to sharing the world's finest beans with coffee lovers everywhere.",
+        "Commodities is more than our business—it's our passion. We're dedicated to sharing the world's finest beans with commodities lovers everywhere.",
     },
   ];
 
@@ -92,9 +92,7 @@ const AboutUs = () => {
             animate={{ opacity: 1 }}
             transition={{ duration: 0.8, delay: 0.3 }}
           >
-            From humble beginnings to global impact, we've been dedicated to
-            connecting exceptional coffee growers with passionate roasters for
-            nearly two decades.
+            From humble beginnings to global reach, we are committed to connecting Indonesia’s finest natural resources with the world. Built on trust, sustainability, and strong partnerships, we strive to deliver premium quality products that represent the richness of Indonesia to global markets.
           </motion.p>
         </div>
       </section>
@@ -119,7 +117,7 @@ const AboutUs = () => {
             <div className="relative">
               <img
                 src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?w=800&q=80"
-                alt="Coffee farmers working"
+                alt="commodities farmers working"
                 className="rounded-lg shadow-lg"
               />
             </div>
@@ -180,7 +178,7 @@ const AboutUs = () => {
             </h2>
             <Separator className="w-24 h-1 bg-[#6f4e37] mx-auto mb-6" />
             <p className="text-lg text-gray-700">
-              Key milestones in our journey to becoming a trusted global coffee
+              Key milestones in our journey to becoming a trusted global commodities
               exporter.
             </p>
           </div>

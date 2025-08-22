@@ -302,7 +302,7 @@ const ContactForm = () => {
                   type="submit"
                   className="bg-amber-700 hover:bg-amber-800"
                 >
-                  Submit Inquiry
+                  <a href="https://api.whatsapp.com/send/?phone=6281385622350&text&type=phone_number&app_absent=0">Submit</a>
                 </Button>
               </CardFooter>
             </form>

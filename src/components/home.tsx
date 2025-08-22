@@ -280,17 +280,17 @@ const Home = () => {
               <ul className="space-y-2">
                 <li>
                   <a href="#" className="hover:text-white transition-colors">
-                    Arabica Beans
+                    Pepper
                   </a>
                 </li>
                 <li>
                   <a href="#" className="hover:text-white transition-colors">
-                    Robusta Beans
+                    Coffee Beans
                   </a>
                 </li>
                 <li>
                   <a href="#" className="hover:text-white transition-colors">
-                    Specialty Coffee
+                    Cloves
                   </a>
                 </li>
                 <li>
