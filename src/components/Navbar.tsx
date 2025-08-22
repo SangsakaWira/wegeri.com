@@ -12,7 +12,7 @@ const Navbar = () => {
     { name: "Home", path: "/" },
     { name: "About Us", path: "/about" },
     { name: "Gallery", path: "https://www.instagram.com/hello.wigeri" },
-    { name: "Portfolio", path: "/portfolio" },
+    // { name: "Portfolio", path: "/portfolio" },
     { name: "Contact", path: "/#contact" },
   ];
 
