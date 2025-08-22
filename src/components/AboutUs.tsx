@@ -109,17 +109,9 @@ const AboutUs = () => {
               </h2>
               <Separator className="w-24 h-1 bg-[#6f4e37] mb-6" />
               <p className="text-lg text-gray-700 mb-6">
-                We exist to bridge the gap between exceptional coffee farmers
-                and discerning roasters worldwide. Our mission is to ensure that
-                every cup tells a story of quality, sustainability, and fair
-                trade.
+              We exist to bridge the gap between Indonesian producers and international buyers by ensuring that every product we deliver reflects quality, sustainability, and fair trade. Through direct collaboration with local farmers and communities, we are not just trading commodities we are creating opportunities, empowering producers, and building a sustainable future for global trade.
               </p>
-              <p className="text-lg text-gray-700 mb-8">
-                Through direct relationships with farming communities and a
-                commitment to ethical sourcing, we're not just exporting
-                coffee—we're cultivating a better future for everyone in the
-                coffee supply chain.
-              </p>
+            
               <Button className="bg-[#6f4e37] hover:bg-[#5a3e2a] text-white">
                 Learn About Our Process
               </Button>
@@ -180,7 +172,7 @@ const AboutUs = () => {
       </section>
 
       {/* Timeline Section */}
-      <section className="py-20 px-4 md:px-8 lg:px-16 bg-white">
+      {/* <section className="py-20 px-4 md:px-8 lg:px-16 bg-white">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-[#3c2f2f] mb-4">
@@ -221,7 +213,7 @@ const AboutUs = () => {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Team Section */}
       <section className="py-20 px-4 md:px-8 lg:px-16 bg-[#3c2f2f] text-white">
@@ -229,7 +221,7 @@ const AboutUs = () => {
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Meet Our Team</h2>
           <Separator className="w-24 h-1 bg-[#6f4e37] mx-auto mb-6" />
           <p className="text-lg text-white/80 max-w-3xl mx-auto mb-12">
-            Our passionate team of coffee experts, sourcing specialists, and
+            Our passionate team of commodities experts, sourcing specialists, and
             logistics professionals work tirelessly to bring you the world's
             finest beans.
           </p>
@@ -237,18 +229,18 @@ const AboutUs = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               {
-                name: "Maria Santos",
-                role: "Founder & CEO",
+                name: "Kokoh Satria",
+                role: "Founder",
                 image: "https://api.dicebear.com/7.x/avataaars/svg?seed=Maria",
               },
               {
-                name: "James Wilson",
-                role: "Head of Sourcing",
+                name: "Jonathan Gabriel",
+                role: "Co-Founder",
                 image: "https://api.dicebear.com/7.x/avataaars/svg?seed=James",
               },
               {
-                name: "Ana Rodriguez",
-                role: "Quality Control Manager",
+                name: "Reza Kurnia",
+                role: "Advisor",
                 image: "https://api.dicebear.com/7.x/avataaars/svg?seed=Ana",
               },
             ].map((member) => (

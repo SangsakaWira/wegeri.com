@@ -43,7 +43,7 @@ const Navbar = () => {
                 className={`px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 ${
                   isActive(item.path)
                     ? "text-[#000000] bg-white/10"
-                    : "text[#000000] hover:text-white hover:bg-white/5"
+                    : "text[#000000] hover:text-black hover:bg-white/5"
                 }`}
               >
                 {item.name}

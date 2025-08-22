@@ -31,7 +31,7 @@ const Home = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
-            Premium Bricket <br /> From Indonesia
+            Professional Indonesian Exporter for Global Needs
           </motion.h1>
           <motion.p
             className="text-xl text-white/90 max-w-2xl mb-8"
@@ -39,8 +39,7 @@ const Home = () => {
             animate={{ opacity: 1 }}
             transition={{ duration: 0.8, delay: 0.3 }}
           >
-            Sourcing exceptional coffee beans through sustainable practices and
-            direct trade relationships with farmers across the globe.
+            We provide high-quality Indonesian commodities, sourced responsibly from local producers, and distributed worldwide with consistency and care.
           </motion.p>
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -66,8 +65,7 @@ const Home = () => {
             </h2>
             <Separator className="w-24 h-1 bg-[#6f4e37] mx-auto mb-6" />
             <p className="text-lg text-gray-700 max-w-3xl mx-auto">
-              From humble beginnings to global exports, we've been connecting
-              exceptional coffee growers with discerning roasters since 2005.
+              From humble beginnings to global reach, we are committed to connecting Indonesia’s finest natural resources with the world. Built on trust, sustainability, and strong partnerships, we strive to deliver premium quality products that represent the richness of Indonesia to global markets.
             </p>
           </div>
 
@@ -140,12 +138,11 @@ const Home = () => {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-[#3c2f2f] mb-4">
-              Our Premium Coffee Beans
+              Our Mission
             </h2>
             <Separator className="w-24 h-1 bg-[#6f4e37] mx-auto mb-6" />
             <p className="text-lg text-gray-700 max-w-3xl mx-auto">
-              Discover our selection of high-quality coffee beans from the
-              world's finest growing regions.
+              We exist to bridge the gap between Indonesian producers and international buyers by ensuring that every product we deliver reflects quality, sustainability, and fair trade. Through direct collaboration with local farmers and communities, we are not just trading commodities we are creating opportunities, empowering producers, and building a sustainable future for global trade.
             </p>
           </div>
 
@@ -193,7 +190,7 @@ const Home = () => {
                     <h3 className="text-lg font-semibold text-[#3c2f2f]">
                       Email Us
                     </h3>
-                    <p className="text-gray-700">info@coffeebeanexports.com</p>
+                    <p className="text-gray-700">business@wigeri.com</p>
                   </div>
                 </div>
 
@@ -206,9 +203,9 @@ const Home = () => {
                       Visit Us
                     </h3>
                     <p className="text-gray-700">
-                      123 Coffee Street, Bean District
+                      Griya Sukadalem Indah Blok A2 no 1, Sukadalem, Kabupaten Serang, Banten
                       <br />
-                      Arabica City, CA 90210
+                      Indonesia
                     </p>
                   </div>
                 </div>
