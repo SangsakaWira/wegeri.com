@@ -80,7 +80,7 @@ const Home = () => {
                     Quality First
                   </h3>
                   <p className="text-gray-700">
-                    We meticulously select only the finest coffee beans,
+                    We meticulously select only the finest products,
                     ensuring exceptional quality in every batch we export.
                   </p>
                 </div>
@@ -98,7 +98,7 @@ const Home = () => {
                   </h3>
                   <p className="text-gray-700">
                     Our commitment to environmental stewardship ensures that our
-                    coffee is not only delicious but responsibly sourced.
+                    products are not only delicious but responsibly sourced.
                   </p>
                 </div>
               </CardContent>
@@ -115,7 +115,7 @@ const Home = () => {
                   </h3>
                   <p className="text-gray-700">
                     We build lasting relationships with farmers, ensuring fair
-                    compensation and supporting local coffee communities.
+                    compensation and supporting local farmers.
                   </p>
                 </div>
               </CardContent>
@@ -177,7 +177,7 @@ const Home = () => {
               </h2>
               <Separator className="w-24 h-1 bg-[#6f4e37] mb-6" />
               <p className="text-lg text-gray-700 mb-8">
-                Interested in our coffee beans? Fill out the form and our team
+                Interested in our products? Fill out the form and our team
                 will get back to you with pricing and availability information.
               </p>
 
@@ -228,14 +228,14 @@ const Home = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div>
               <h3 className="text-xl font-bold text-white mb-4">
-                Coffee Bean Exports
+                Premium Products
               </h3>
               <p className="mb-4">
-                Premium coffee beans sourced directly from farmers around the
+                Premium products sourced directly from farmers around the
                 world.
               </p>
               <p>
-                &copy; {new Date().getFullYear()} Coffee Bean Exports. All
+                &copy; {new Date().getFullYear()} Premium Indonesia's Commodities. All
                 rights reserved.
               </p>
             </div>
