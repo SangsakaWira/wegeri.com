@@ -27,7 +27,7 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-24">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
-            {/* <Coffee className="h-8 w-8 text-[#6f4e37]" /> */}
+            {/* <Coffee className="h-8 w-8 text-[#000000]" /> */}
             <img src="./logo.jpeg" className="w-[80px]"></img>
             {/* <span className="text-xl font-bold text-white">
               Wigeri
@@ -50,7 +50,7 @@ const Navbar = () => {
             ))}
             <Button
               size="sm"
-              className="bg-[#6f4e37] hover:bg-[#5a3e2a] text-white"
+              className="bg-[#000000] hover:bg-[#5a3e2a] text-white"
             >
               Get Quote
             </Button>
@@ -60,7 +60,7 @@ const Navbar = () => {
           <div className="md:hidden">
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="text-white hover:text-[#6f4e37] transition-colors"
+              className="text-black hover:text-[#000000] transition-colors"
             >
               {isOpen ? (
                 <X className="h-6 w-6" />
@@ -88,7 +88,7 @@ const Navbar = () => {
                   to={item.path}
                   onClick={() => setIsOpen(false)}
                   className={`block px-3 py-2 rounded-md text-base font-medium transition-colors duration-200 ${isActive(item.path)
-                      ? "text-[#6f4e37] bg-white/10"
+                      ? "text-[#000000] bg-white/10"
                       : "text-white/80 hover:text-white hover:bg-white/5"
                     }`}
                 >
