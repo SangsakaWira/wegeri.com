@@ -226,12 +226,12 @@ const defaultBeans: CoffeeBean[] = [
   {
     id: "1",
     name: "Black Pepper",
-    origin: "Java Indonesia",
+    origin: "Indonesia",
     altitude: "1,800-2,200m",
-    process: "Washed",
+    process: "dry",
     flavorProfile: ["Floral", "Citrus", "Bergamot"],
     description:
-      "A bright and complex coffee with distinctive floral notes, citrus acidity, and a clean finish. Grown in the highlands of Yirgacheffe, Ethiopia.",
+      "A bold and pungent spice with a sharp aroma, warm heat, and earthy complexity. Grown in the fertile soils of Indonesia, delivering depth and character to global cuisines.",
     price: {
       kg5: 9,
       kg10: 15,
@@ -244,12 +244,12 @@ const defaultBeans: CoffeeBean[] = [
   {
     id: "2",
     name: "Long Pepper",
-    origin: "Java Indonesia",
+    origin: "Indonesia",
     altitude: "1,400-1,800m",
-    process: "Washed",
+    process: "dry",
     flavorProfile: ["Chocolate", "Caramel", "Nutty"],
     description:
-      "A well-balanced pepper with medium body, pleasant acidity, and notes of chocolate and caramel. Grown in the Huila region of Colombia.",
+      "An exotic spice with a sweet, earthy heat and subtle hints of cinnamon and nutmeg. Cultivated in Indonesia’s tropical climate, long pepper offers a distinctive flavor that enriches traditional dishes and modern cuisine alike.",
     price: {
       kg5: 9,
       kg10: 15,
@@ -262,12 +262,12 @@ const defaultBeans: CoffeeBean[] = [
   {
     id: "3",
     name: "Cloves",
-    origin: "Sulawesi Indonesia",
+    origin: "Indonesia",
     altitude: "900-1,500m",
     process: "Wet-hulled",
     flavorProfile: ["Earthy", "Herbal", "Dark Chocolate"],
     description:
-      "A full-bodied cloves with low acidity, earthy notes, and a smooth finish. Grown in the highlands of Sumatra, Indonesia.",
+      "Sulawesi cloves are renowned for their warm, intense aroma and rich, slightly sweet flavor with a subtle hint of bitterness. Grown in Indonesia’s fertile volcanic soil, these premium cloves embody the essence of the islands, adding depth to cuisines and serving as a treasured ingredient in traditional remedies worldwide.",
     price: {
       kg5: 9,
       kg10: 15,
@@ -285,7 +285,7 @@ const defaultBeans: CoffeeBean[] = [
     process: "Various",
     flavorProfile: ["Balanced", "Sweet", "Smooth"],
     description:
-      "A balanced and approachable blend with medium body, pleasant sweetness, and a clean finish. Perfect for everyday drinking.",
+      "A refined spice with a milder heat and earthy, fermented notes. Harvested in Indonesia, white pepper adds a delicate depth and smooth finish to both traditional and modern cuisine.",
     price: {
       kg5: 9,
       kg10: 15,
@@ -297,13 +297,13 @@ const defaultBeans: CoffeeBean[] = [
   },
   {
     id: "5",
-    name: "Palm Sugar",
+    name: "Cardamom",
     origin: "Sumatera Indonesia",
     altitude: "1,500-1,900m",
     process: "Washed",
     flavorProfile: ["Bright", "Apple", "Honey"],
     description:
-      "A clean and bright coffee with notes of apple, honey, and a hint of cinnamon. Grown in the Tarrazu region of Costa Rica.",
+      "A fragrant spice with sweet, floral notes and hints of citrus and menthol. Grown in Indonesia’s tropical highlands, cardamom brings a unique depth and freshness to culinary creations and beverages worldwide.",
     price: {
      kg5: 9,
       kg10: 15,
@@ -315,13 +315,13 @@ const defaultBeans: CoffeeBean[] = [
   },
   {
     id: "6",
-    name: "Coffee",
-    origin: "Java & Sumatera Indonesia",
+    name: "Cinnamon",
+    origin: "Indonesia",
     altitude: "Various",
     process: "Various",
     flavorProfile: ["Chocolate", "Caramel", "Rich"],
     description:
-      "A rich and full-bodied blend designed specifically for espresso. Features notes of dark chocolate and caramel with a lingering sweet finish.",
+      "Cinnamon, grown in the fertile volcanic highlands of Sumatra, offers a sweet and warm aroma with subtle woody notes. Revered for its premium quality and rich essential oils, this spice adds depth and natural sweetness to dishes and beverages worldwide.",
     price: {
      kg5: 9,
       kg10: 15,
