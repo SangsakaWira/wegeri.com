@@ -310,7 +310,7 @@ const defaultBeans: CoffeeBean[] = [
       kg25: 25,
     },
     image:
-      "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=800&q=80",
+      "/cardanom.jpeg",
     category: "single origin",
   },
   {
@@ -328,7 +328,7 @@ const defaultBeans: CoffeeBean[] = [
       kg25: 25,
     },
     image:
-      "https://images.unsplash.com/photo-1511537190424-bbbab87ac5eb?w=800&q=80",
+      "/cinnamon.jpeg",
     category: "blend",
   },
 ];
